@@ -10,6 +10,7 @@
 import Header from './components/Header.vue'
 import SearchBar from './components/SearchBar.vue'
 import MainContent from './components/MainContent.vue'
+import About from './components/About.vue'
 
 export default {
   name: 'app',
