@@ -10,6 +10,7 @@
 import Header from './components/Header.vue'
 import SearchBar from './components/SearchBar.vue'
 import MainContent from './components/MainContent.vue'
+import About from './components/About.vue'
 
 export default {
   name: 'app',
@@ -54,6 +55,10 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  background: #339FFF;
 }
 
 
