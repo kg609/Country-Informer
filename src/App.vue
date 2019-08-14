@@ -1,8 +1,11 @@
 <template>
   <div id="app">
-    <Header />
-    <SearchBar v-on:submitted-info="getInfo" />
-    <MainContent :countries=results />
+    <div id="container">
+      <Header />
+      <SearchBar v-on:submitted-info="getInfo" />
+      
+      <MainContent :countries=results />
+    </div>
   </div>
 </template>
 
@@ -17,13 +20,15 @@ export default {
   components: {
     Header,
     SearchBar,
-    MainContent
+    MainContent,
+    About
   },
   props: {
     
   },
   data() {
     return {
+      hide: false,
       results: []
     }
   },
@@ -45,7 +50,9 @@ export default {
           return self.results = res
         })
         .catch(error => console.error(error))
-    }
+    },
+
+
   }
 }
 </script>
@@ -57,14 +64,27 @@ export default {
   box-sizing: border-box;
 }
 
+html {
+  background: #339FFF;
+}
 
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #339FFF;
+  height: 100vh;
+  margin-top: 50px;
   /* text-align: center; */
   /* color: #2c3e50; */
   
+}
+
+#container {
+    background: #FFF;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto
 }
 
 </style>

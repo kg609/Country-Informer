@@ -9,7 +9,11 @@
           Malesuada proin libero nunc consequat interdum varius sit amet mattis. Aenean vel elit scelerisque mauris pellentesque pulvinar. Aliquet eget sit amet tellus cras adipiscing. 
           At risus viverra adipiscing at. Lacus luctus accumsan tortor posuere ac ut consequat. Ultrices in iaculis nunc sed augue. Scelerisque viverra mauris in aliquam sem fringilla ut. 
           Pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Neque laoreet suspendisse interdum consectetur libero. Nisi lacus sed viverra tellus in hac habitasse. 
+<<<<<<< HEAD
+          Pretium nibh ipsum consequat nisl. Nisl nisi scelerisque eu ultrices. Facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui.</p><br/>
+=======
           Pretium nibh ipsum consequat nisl. Nisl nisi scelerisque eu ultrices. Facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui.</p>
+>>>>>>> master
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
         Euismod nisi porta lorem mollis aliquam ut porttitor. 
@@ -18,7 +22,11 @@
         Malesuada proin libero nunc consequat interdum varius sit amet mattis. Aenean vel elit scelerisque mauris pellentesque pulvinar. Aliquet eget sit amet tellus cras adipiscing. 
         At risus viverra adipiscing at. Lacus luctus accumsan tortor posuere ac ut consequat. Ultrices in iaculis nunc sed augue. Scelerisque viverra mauris in aliquam sem fringilla ut. 
         Pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Neque laoreet suspendisse interdum consectetur libero. Nisi lacus sed viverra tellus in hac habitasse. 
+<<<<<<< HEAD
+        Pretium nibh ipsum consequat nisl. Nisl nisi scelerisque eu ultrices. Facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui.</p><br/>
+=======
         Pretium nibh ipsum consequat nisl. Nisl nisi scelerisque eu ultrices. Facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui.</p>
+>>>>>>> master
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
         Euismod nisi porta lorem mollis aliquam ut porttitor. 
@@ -27,7 +35,11 @@
         Malesuada proin libero nunc consequat interdum varius sit amet mattis. Aenean vel elit scelerisque mauris pellentesque pulvinar. Aliquet eget sit amet tellus cras adipiscing. 
         At risus viverra adipiscing at. Lacus luctus accumsan tortor posuere ac ut consequat. Ultrices in iaculis nunc sed augue. Scelerisque viverra mauris in aliquam sem fringilla ut. 
         Pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Neque laoreet suspendisse interdum consectetur libero. Nisi lacus sed viverra tellus in hac habitasse. 
+<<<<<<< HEAD
+        Pretium nibh ipsum consequat nisl. Nisl nisi scelerisque eu ultrices. Facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui.</p><br/>
+=======
         Pretium nibh ipsum consequat nisl. Nisl nisi scelerisque eu ultrices. Facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui.</p>
+>>>>>>> master
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
         Euismod nisi porta lorem mollis aliquam ut porttitor. 
@@ -36,7 +48,11 @@
         Malesuada proin libero nunc consequat interdum varius sit amet mattis. Aenean vel elit scelerisque mauris pellentesque pulvinar. Aliquet eget sit amet tellus cras adipiscing. 
         At risus viverra adipiscing at. Lacus luctus accumsan tortor posuere ac ut consequat. Ultrices in iaculis nunc sed augue. Scelerisque viverra mauris in aliquam sem fringilla ut. 
         Pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Neque laoreet suspendisse interdum consectetur libero. Nisi lacus sed viverra tellus in hac habitasse. 
+<<<<<<< HEAD
+        Pretium nibh ipsum consequat nisl. Nisl nisi scelerisque eu ultrices. Facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui.</p><br/>
+=======
         Pretium nibh ipsum consequat nisl. Nisl nisi scelerisque eu ultrices. Facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui.</p>
+>>>>>>> master
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
         Euismod nisi porta lorem mollis aliquam ut porttitor. 
@@ -45,7 +61,11 @@
         Malesuada proin libero nunc consequat interdum varius sit amet mattis. Aenean vel elit scelerisque mauris pellentesque pulvinar. Aliquet eget sit amet tellus cras adipiscing. 
         At risus viverra adipiscing at. Lacus luctus accumsan tortor posuere ac ut consequat. Ultrices in iaculis nunc sed augue. Scelerisque viverra mauris in aliquam sem fringilla ut. 
         Pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Neque laoreet suspendisse interdum consectetur libero. Nisi lacus sed viverra tellus in hac habitasse. 
+<<<<<<< HEAD
+        Pretium nibh ipsum consequat nisl. Nisl nisi scelerisque eu ultrices. Facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui.</p><br/>
+=======
         Pretium nibh ipsum consequat nisl. Nisl nisi scelerisque eu ultrices. Facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui.</p>
+>>>>>>> master
 
         </div>
   </div>
