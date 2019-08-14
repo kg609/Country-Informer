@@ -3,7 +3,7 @@
     <div id="container">
       <Header />
       <SearchBar v-on:submitted-info="getInfo" />
-      
+      <About />
       <MainContent :countries=results />
     </div>
   </div>

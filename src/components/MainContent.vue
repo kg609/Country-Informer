@@ -1,6 +1,5 @@
 <template>
   <div class="mainContent" >
-<<<<<<< HEAD
       <div class="resultsContainer" v-if="isVisible" >
           <!-- {{ console.log(`The results is open value: ${isOpen`) }} -->
           <!-- <p>Some Data will be shown here</p> -->
@@ -22,35 +21,6 @@
                     </div>
                 </div>
             </ul> 
-=======
-      <div class="resultsContainer">
-          <!-- <p>Some Data will be shown here</p> -->
-          <ul v-for="(country, index) in countries" class="countryListCard" v-bind:key="index" >
-              <div class="countryName">
-                  <li>
-                    <strong>Country Name:</strong> {{ country.name }}, {{ country.region }}
-                  </li>
-              </div>
-              <div class="countryLanguage">
-                  <li v-for="(language, index) in country.languages" v-bind:key="index">
-                    <strong>native language(s): </strong> {{ language.name }}
-                  </li>
-              </div>
-
-              
-                  <div class="btnContainer">
-                      <button class="btn-learn" v-on:click="showInfo(country)">Learn More</button>
-                  </div>
-              <!-- <div class="countrySpecifics">
-                  <li v-if="">
-                    <strong>native language(s): </strong> {{ language.name }}
-                  </li>
-              </div>   -->
-          </ul>
-          <br/>
-          <br/>
-          <!-- <p> {{this.countries.name}} </p> -->
->>>>>>> master
       </div>
 
       <!-- Country specific information based on card chosen -->
@@ -137,7 +107,6 @@
         props:["countries"],
         data() {
             return {
-<<<<<<< HEAD
                 isVisible: true,
                 isHidden: false,
                 countryObject: {},
@@ -160,17 +129,6 @@
                 // console.log('This is the country object:' + this.countryObject)
                 // console.log('country index is:' + this.indexOfCountryObj)
                 return (this.countryObject, this.indexOfCountryObj)
-=======
-                isOpen: false
-            }
-        },
-        methods: {
-            showInfo(el) {
-                console.log(el)
-                console.log(`this is was the info that was passed: ${el}`)
-                this.isOpen =  true
-                // this.$emit('learn-more-click', el)
->>>>>>> master
             }
         }
     }
@@ -181,7 +139,6 @@
         display: grid;
         grid-template-columns: auto auto auto;
         grid-template-rows: auto auto auto;
-<<<<<<< HEAD
         grid-gap: 20px;
         /* border: 1px solid #ddd;
         background: #2c3e50; */
@@ -194,20 +151,13 @@
         display: grid;
         grid-template-columns: auto auto auto;
         grid-template-rows: auto auto auto;
-=======
->>>>>>> master
         border: 1px solid #ddd;
         background: #2c3e50;
     } */
 
     .countryListCard {
-<<<<<<< HEAD
         margin: auto;
         /* border: 1px solid #000; */
-=======
-        margin: 10px auto;
-        border: 1px solid #000;
->>>>>>> master
         background: #ddd;
         color: #000;
         width: 500px;
@@ -230,7 +180,7 @@
 
     .imageContainer {
         border: 1px solid;
-        height: 40vh;
+        height: 50vh;
         margin: 20px auto;
     }
 
@@ -287,19 +237,9 @@
         transition: .3s ease-in-out all;
     }
 
-<<<<<<< HEAD
     .btn-go-back {
         padding: 10px;
         margin-top: 50px;
-=======
-    .btnContainer {
-        display: flex;
-    }
-
-    .btn-learn {
-        padding: 10px;
-        margin: 10px auto;
->>>>>>> master
         background: #2c3e50;
         padding: 12px 25px;
         border-radius: 5px;
@@ -308,18 +248,11 @@
 
     }
 
-<<<<<<< HEAD
     .btn-go-back:hover {
-=======
-    .btn-learn:hover {
->>>>>>> master
         background: #ddd;
         color: #2c3e50;
         transition: .3s ease-in-out all;
     }
-<<<<<<< HEAD
 
     
-=======
->>>>>>> master
 </style>
