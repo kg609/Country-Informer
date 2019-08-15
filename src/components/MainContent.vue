@@ -1,10 +1,10 @@
 <template>
   <div class="mainContent" >
-      <div class="resultsContainer" v-if="isVisible" >
+      <div class="resultsContainer col-" v-if="isVisible" >
           <!-- {{ console.log(`The results is open value: ${isOpen`) }} -->
           <!-- <p>Some Data will be shown here</p> -->
           
-            <ul v-for="(country, index) in countries" class="countryListCard" v-bind:key="index" >
+            <ul v-for="(country, index) in countries" class="countryListCard col-s-4 col-" v-bind:key="index" >
                 <div class="countryListContainer" >
                     <div class="countryName">
                         <li>
@@ -33,7 +33,7 @@
             <div>
                 <h1> {{ countryObject.name }} </h1>
             </div>
-              <div class="countrySpecificsContainer" v-if="isHidden">
+              <div class="countrySpecificsContainer col-" v-if="isHidden">
                   
                   <ul class="specificListInfo">
                     <div class="specificCardInfo">
@@ -253,6 +253,40 @@
         color: #2c3e50;
         transition: .3s ease-in-out all;
     }
+
+
+    /* Media Queries */
+/* For mobile phones: */
+/* @media only screen and (max-width: 600px) {
+    .countryListCard {
+        display: block;
+    }
+}  */
+
+[class*="col-"] {
+  width: 100%;
+  display: block;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+
+  .resultsContainer, .countrySpecificsContainer {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-template-rows: auto auto auto;
+      grid-gap: 20px;
+  }
+  
+
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+
+}
 
     
 </style>
