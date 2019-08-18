@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div id="about">
       <div class="about-content">
         <!-- Country specific information based on card chosen -->
         <div class="imageContainer">
@@ -8,37 +8,41 @@
             </div>
         </div>
 
-        <h1>About</h1>
+        <div class="about-container">
+          <h1>About</h1>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Euismod nisi porta lorem mollis aliquam ut porttitor. 
-            Purus in mollis nunc sed id semper risus in hendrerit. Donec massa sapien faucibus et. 
-            Lacus laoreet non curabitur gravida arcu. Faucibus scelerisque eleifend donec pretium vulputate sapien nec. Nunc id cursus metus aliquam eleifend mi in nulla posuere. 
-            Malesuada proin libero nunc consequat interdum varius sit amet mattis. Aenean vel elit scelerisque mauris pellentesque pulvinar. Aliquet eget sit amet tellus cras adipiscing. 
-            At risus viverra adipiscing at. Lacus luctus accumsan tortor posuere ac ut consequat. Ultrices in iaculis nunc sed augue. Scelerisque viverra mauris in aliquam sem fringilla ut. 
-            Pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Neque laoreet suspendisse interdum consectetur libero. Nisi lacus sed viverra tellus in hac habitasse. 
-            Pretium nibh ipsum consequat nisl. Nisl nisi scelerisque eu ultrices. Facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui.
-        </p><br/>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Euismod nisi porta lorem mollis aliquam ut porttitor. 
+              Purus in mollis nunc sed id semper risus in hendrerit. Donec massa sapien faucibus et. 
+              Lacus laoreet non curabitur gravida arcu. Faucibus scelerisque eleifend donec pretium vulputate sapien nec. Nunc id cursus metus aliquam eleifend mi in nulla posuere. 
+              Malesuada proin libero nunc consequat interdum varius sit amet mattis. Aenean vel elit scelerisque mauris pellentesque pulvinar. Aliquet eget sit amet tellus cras adipiscing. 
+              At risus viverra adipiscing at. Lacus luctus accumsan tortor posuere ac ut consequat. Ultrices in iaculis nunc sed augue. Scelerisque viverra mauris in aliquam sem fringilla ut. 
+              Pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Neque laoreet suspendisse interdum consectetur libero. Nisi lacus sed viverra tellus in hac habitasse. 
+              Pretium nibh ipsum consequat nisl. Nisl nisi scelerisque eu ultrices. Facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui.
+          </p><br/>
+        </div>
       </div>
 
-      <div class="">
+      <div class="popular-tourist">
         <div class="imageContainer">
             <div class="backgroundImg2">
 
             </div>
         </div>
 
-        <h1>Popular Tourist Areas</h1>
+        <div class="popular-tourist-container">
+          <h1>Popular Tourist Areas</h1>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Euismod nisi porta lorem mollis aliquam ut porttitor. 
-            Purus in mollis nunc sed id semper risus in hendrerit. Donec massa sapien faucibus et. 
-            Lacus laoreet non curabitur gravida arcu. Faucibus scelerisque eleifend donec pretium vulputate sapien nec. Nunc id cursus metus aliquam eleifend mi in nulla posuere. 
-            Malesuada proin libero nunc consequat interdum varius sit amet mattis. Aenean vel elit scelerisque mauris pellentesque pulvinar. Aliquet eget sit amet tellus cras adipiscing. 
-            At risus viverra adipiscing at. Lacus luctus accumsan tortor posuere ac ut consequat. Ultrices in iaculis nunc sed augue. Scelerisque viverra mauris in aliquam sem fringilla ut. 
-            Pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Neque laoreet suspendisse interdum consectetur libero. Nisi lacus sed viverra tellus in hac habitasse. 
-            Pretium nibh ipsum consequat nisl. Nisl nisi scelerisque eu ultrices. Facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui.
-        </p><br/>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Euismod nisi porta lorem mollis aliquam ut porttitor. 
+              Purus in mollis nunc sed id semper risus in hendrerit. Donec massa sapien faucibus et. 
+              Lacus laoreet non curabitur gravida arcu. Faucibus scelerisque eleifend donec pretium vulputate sapien nec. Nunc id cursus metus aliquam eleifend mi in nulla posuere. 
+              Malesuada proin libero nunc consequat interdum varius sit amet mattis. Aenean vel elit scelerisque mauris pellentesque pulvinar. Aliquet eget sit amet tellus cras adipiscing. 
+              At risus viverra adipiscing at. Lacus luctus accumsan tortor posuere ac ut consequat. Ultrices in iaculis nunc sed augue. Scelerisque viverra mauris in aliquam sem fringilla ut. 
+              Pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Neque laoreet suspendisse interdum consectetur libero. Nisi lacus sed viverra tellus in hac habitasse. 
+              Pretium nibh ipsum consequat nisl. Nisl nisi scelerisque eu ultrices. Facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui.
+          </p><br/>
+        </div>
       </div>
   </div>
 </template>
@@ -75,5 +79,15 @@
     -o-background-size: cover;
     background-size: 100%;
 }
+
+#about h1 {
+  text-align: center;
+}
+
+#about p  {
+  padding: 30px;
+  text-align: center;
+}
+
 
 </style>
